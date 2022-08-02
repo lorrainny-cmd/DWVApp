@@ -1,0 +1,9 @@
+body{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.ui.selection.dropdown .menu>.item {
+    font-size: 12px !important;
+}

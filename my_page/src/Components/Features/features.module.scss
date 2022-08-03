@@ -1,0 +1,12 @@
+.container {
+  margin-left: clamp(350px,21.875vw,10px);
+  margin-top: clamp(20px,1.25vw,10px);
+}
+
+.vertical {
+  border-left: 4px solid black;
+  border-radius: clamp(20px,1.25vw,10px);
+  height: clamp(260px,16.25vw,10px);
+  position: absolute;
+  left: 50%;
+}

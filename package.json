@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "@semantic-ui-react/css-patch": "^1.0.0",
+    "bootstrap-icons": "^1.9.1",
     "react-router-dom": "^6.3.0"
   }
 }

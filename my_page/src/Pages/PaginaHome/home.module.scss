@@ -1,0 +1,52 @@
+.header{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.logo{
+    margin-left: clamp(400px,25vw,10px);
+    justify-content: center;
+    width: clamp(310px,19.375vw,10px);
+}
+
+.principal{
+    justify-content: center;
+    margin-left: clamp(310px,19.375vw,10px);
+}
+
+
+
+img{
+    max-width: 101%;
+  }
+  
+  .figure, img{
+    position: relative;
+  }
+  
+  .figure{
+    max-width: clamp(842px,52.625vw,10px);
+  }
+  
+  .figure img:last-child{
+    position: absolute;
+    max-width: 30%;
+    margin-left: 7%;
+    top: clamp(320px,20vw,10px);
+    border: 2px solid #fff;
+    width: clamp(60px,3.75vw,10px);
+    border-radius: 2px;
+    cursor:pointer;
+  }
+
+  .text{
+    margin-left: clamp(370px,25vw,10px);
+    font: normal normal normal 16px/24px Roboto;
+    color: #2C2C2C;
+  }
+
+  .bodyitens{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
